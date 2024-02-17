@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        *{
+            margin-top: -15px;
+            color: white;
+        }
+        .color{
+            width: 100%;
+            height: 400px;
+            background-color:rgb(56, 56, 236) ;
+        }
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        .container-fluid{
+            width: 100%;
+            height: 400px;
+            background-color: rgb(56, 56, 236);
+        }
+        .container h3{
+            margin-top: 30px;
+        }
+        h5{
+            margin-top: -20px;
+            position: absolute;
+            right: 500px;
+
+        }
+        .icon{
+            margin-top: -9px;
+            position: absolute;
+            right: 450px;
+        }
+        .head{
+            margin-top: -20px;
+            position: absolute;
+            right: 300px;
+        }
+        #but1{ 
+            margin-top: -29px;
+            border: 1px solid rgb(22, 22, 233);
+            border-radius: 4px;
+            position: absolute;
+            right: -100px;
+            color: rgb(34, 34, 230);
+        }
+        #but2{
+            margin-top: -29px;
+            border: 1px solid rgb(22, 22, 233);
+            border-radius: 4px;
+            position: absolute;
+            right: -180px;
+            color: rgb(34, 34, 230);
+        }
+        .s{
+            
+            color: white;
+            background:transparent;
+            margin-top: 30px;
+            border: none;
+            border-radius: 15px;
+            padding: 8px;
+        }
+        .s:hover{
+            background-color: rgb(75, 75, 230);
+        }
+        .s:focus{
+            border: 1px solid white;
+        }
+        .buttons{
+            position: absolute;
+            left: 90px;
+        }
+        .r1{
+            margin-top: 120px;
+            height: 100px;
+        }
+        .col-8 h1{
+            margin-top: 10px;
+            font-size: 60px;
+        }
+        .col-8 h4{
+            margin-top: -20px;
+            font-size: 25px;
+        }
+        .r2{
+            border: 3px solid rgb(177, 177, 1);
+            border-radius: 10px;
+            margin-top: 130px;
+            height: 70px;
+            background-color: white;
+            
+        }
+        #be{
+            margin-top: 2px;
+            margin-left: 40px;
+            width: 80%;
+            background-color: rgba(8, 98, 216, 0.699);
+            height: 60px;
+            font-size: 30px;
+            border: none;
+            border-radius: 8px;
+        }
+        .icon2{
+            margin-top: 30px;
+        }
+        #input{
+            outline: none;
+            border: none;
+
+        }
+    </style>
+</head>
+<body>
+ <div class="container-fluid">
+    <div class="color">
+   <div class="container">
+    <h3>Booking.com</h3>
+    <h5>PKR</h5>
+    <i class="fa-solid fa-circle-question fa-xl icon"></i>
+    <div class="head">
+        <h6>List Your Property</h6>
+        <button id="but1">Register</button>
+        <button id="but2">Sign in</button>
+    </div>
+   <div class="buttons">
+   <button class="s"><i class="fa-solid fa-bed" style="color: #ffffff;"></i>&nbsp;&nbsp;Stays</button>
+   <button class="s"><i class="fa-solid fa-plane" style="color: #ffffff;"></i>&nbsp;&nbsp;Flights</button>
+   <button class="s"><i class="fa-solid fa-car" style="color: #ffffff;"></i>&nbsp;&nbsp;Car rentals</button>
+   <button class="s"><i class="fa-solid fa-magnet" style="color: #ffffff;"></i>&nbsp;&nbsp;Attractions</button>
+   <button class="s"><i class="fa-solid fa-taxi" style="color: #ffffff;"></i>&nbsp;&nbsp;Airport Texis</button>
+   </div>
+   <div class="row r1">
+    <div class="col-8"><h1>Find your next stay</h1><br><h4>Search low prices on hotels, homes and much more...</h4></div>
+    <div class="col-4"></div>
+   </div>
+   <div class="row r2">
+    <div class="col-4"><i class="fa-solid fa-bed fa-xl icon2" style="color: #636161;"></i>&nbsp;&nbsp;<input type="text" name="" id="input" placeholder="Where are you going?"></div>
+    <div class="col-4"><i class="fa-solid fa-calendar fa-xl icon2" style="color: #636161;"></i>&nbsp;&nbsp;<input type="text" name="" id="input" placeholder="Check-in date -Check-out date"></div>
+    <div class="col-2 offset-2"><button id="be">Search</button></div>
+   </div>
+</div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
